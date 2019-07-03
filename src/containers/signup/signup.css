@@ -1,0 +1,24 @@
+.form {
+  display: block;
+  width: 100%;
+  margin: 40px auto;
+  text-align: center;
+  background-color: lightgrey;
+  position: relative;
+}
+
+.username {
+  min-width: 160px;
+}
+
+.password {
+  min-width: 160px;
+}
+
+.email {
+  min-width: 160px;
+}
+
+.button {
+  min-width: 160px;
+}

@@ -1,0 +1,66 @@
+.homepage {
+  width: 100%;
+}
+
+.jumbotron {
+  max-height: 350px;
+  overflow: hidden;
+  width: 100%;
+  margin: 1%;
+}
+
+.filter {
+  width: 90%;
+  margin: 5px 5px;
+  padding: 5px 5px;
+  height: 100%;
+  position: relative;
+  bottom: 90px;
+  left: 5%;
+}
+
+.list {
+  display: block;
+  height: 700px;
+  overflow: visible;
+}
+
+.list:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.events {
+  width: 94%;
+  margin: 3%;
+  text-align: center;
+  background-color: lightgrey;
+}
+
+.category {
+  width: 94%;
+  margin: 3%;
+  background-color: blanchedalmond;
+  text-align: center;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.categorylist {
+  width: 100%;
+}
+
+.categorylist:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.footer {
+  width: 100%;
+  overflow: auto;
+  background-color: aqua;
+}

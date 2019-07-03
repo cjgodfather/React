@@ -1,0 +1,9 @@
+.form {
+  display: flex;
+  border-radius: 5px;
+  width: 88%;
+  height: 88%;
+  margin: 3%;
+  padding: 3%;
+  background-color: lightskyblue;
+}

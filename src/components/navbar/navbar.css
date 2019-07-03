@@ -1,0 +1,47 @@
+.nav {
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  background-color: lightblue;
+  z-index: 1;
+}
+
+.nav:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.title {
+  background-color: ruby;
+  z-index: 2;
+  flex: 1 1 0;
+}
+
+.ul {
+  flex: 1 1 0;
+  justify-content: center;
+  margin: 2%;
+  padding: 0;
+  overflow: hidden;
+  text-align: right;
+}
+
+.nav li {
+  display: inline;
+  text-align: right;
+  padding: 14px 16px;
+}
+
+.nav li a {
+  color: black;
+  text-decoration: none;
+  font-size: 1em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.nav a:hover {
+  background-color: grey;
+  cursor: pointer;
+}

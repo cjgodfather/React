@@ -1,0 +1,21 @@
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: lightgrey;
+}
+
+.username {
+  min-width: 320px;
+  flex-grow: 1;
+}
+
+.password {
+  min-width: 320px;
+  flex-grow: 1;
+}
+
+.button {
+  min-width: 320px;
+  flex-grow: 1;
+}

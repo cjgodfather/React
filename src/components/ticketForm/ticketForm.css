@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+}
+
+.ticket {
+  flex: 1 1 100px;
+}
+
+.form {
+  display: flex;
+  flex: 1 1 100px;
+  justify-content: right;
+}
+
+.select {
+  justify-content: right;
+  display: block;
+  flex: 0.2 1 0;
+  cursor: pointer;
+}

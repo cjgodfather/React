@@ -1,0 +1,25 @@
+.label {
+  margin: 5px;
+  padding: 10px;
+}
+
+.input {
+  float: left;
+  min-width: 100px;
+  padding: 5px;
+  margin: 5px;
+  border: 2px solid #dddddd;
+  border-radius: 4px;
+}
+
+.input:focus {
+  background-color: linen;
+  border-color: black;
+}
+
+.span {
+  display: none;
+}
+.span.invalid {
+  display: inline;
+}

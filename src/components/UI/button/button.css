@@ -1,0 +1,23 @@
+.button {
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 10px;
+  transition-duration: 0.5s;
+}
+
+.button:hover {
+  background-color: white;
+}
+
+.button:disabled {
+  cursor: not-allowed;
+}
+
+.success {
+  background-color: rgb(96, 146, 221);
+}
+
+.danger {
+  background-color: rgb(243, 69, 106);
+}
